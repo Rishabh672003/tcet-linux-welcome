@@ -1,0 +1,11 @@
+[Unit]
+Description=Tcet Linux welcome App
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/.local/share/tcet-linux-welcome
+ExecStart=%h/.local/share/tcet-linux-welcome/welcome.sh
+
+[Install]
+WantedBy=default.target
