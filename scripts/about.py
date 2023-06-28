@@ -10,7 +10,7 @@ class aboutWin(Gtk.Window):
         super().__init__(title="About Us")
         vbox_left = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=10)
         vbox_left.set_homogeneous(True)
-        self.set_default_geometry(800,450)
+        self.set_default_geometry(400,100)
         self.set_border_width(10)
         # self.set_default_size(100, 20)
         self.set_resizable(False)
